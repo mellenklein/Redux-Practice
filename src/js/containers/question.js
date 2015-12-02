@@ -1,11 +1,14 @@
 //import dependencies
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from 'react';
 
-//create a container that will render the question component
+//import the Question component to place inside the container
+import Question from '../components/question-detail';
+
+//create a container that will render the Question component
 class QuestionContainer extends React.Component {
   render () {
     return (
-      <h1>I am the individual question container! You won't see me on the home page because I am on a sub route!</h1>
+      <Question question={question}/>
     )
   }
 }

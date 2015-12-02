@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans', sans-serif;
+}
+
+header {
+  background: #CEE3F8;
+  border-bottom: 1px solid #5F99CF;
+  border-top: 1px solid #808080;
+  padding: 5px 10px;
+}
+
+header img {
+  float: left;
+}
+
+header::after {
+  display: block;
+  content: "";
+  clear: both;
+}

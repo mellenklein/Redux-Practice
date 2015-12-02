@@ -1,9 +1,14 @@
+//import dependencies
 import React, { PropTypes } from 'react'
 
+//import the questions list component
+import Questions from '../components/questions';
+
+//create a container that will render the questions list component
 class QuestionsContainer extends React.Component {
   render () {
     return (
-      <h1>I am the question list container!</h1>
+      <Questions />
     )
   }
 }

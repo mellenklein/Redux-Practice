@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import Store from '../store';
 
 //create a component for a user comment to be rendered, which
 //will be rendered inside expanded question details

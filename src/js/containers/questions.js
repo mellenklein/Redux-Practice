@@ -1,5 +1,6 @@
 //import dependencies
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from 'react';
+import Store from '../store';
 
 //import the questions list component
 import Questions from '../components/questions';
